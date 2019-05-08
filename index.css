@@ -1,0 +1,14 @@
+body {
+	background-color: #fefefe;
+	margin: 100px;
+}
+
+h3 {
+	font-family: 'Crimson Text';
+	font-size: 24px;
+}
+
+.title-name {
+	font-size: 36px;
+	font-family: 'Crimson Text';
+}
