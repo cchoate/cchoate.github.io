@@ -20,7 +20,13 @@ h3 {
 	width: 700px;
 }
 
-.body-section a {
+a {
 	color: #222222;
 	text-decoration: underline; 
 }
+
+a:hover {
+	color: #333333;
+}
+
+
