@@ -1,9 +1,6 @@
 body {
 	background-color: #fefefe;
-	margin-top: 100px;
-	margin-bottom: 100px;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin: 20px;
 }
 
 h3 {
@@ -13,13 +10,38 @@ h3 {
 
 .title-name {
 	font-size: 36px;
-	font-family: 'Crimson Text';
-	padding-top: 25px;
-	padding-bottom: 25px;
+	font-family: 'Crimson Text', Sans-Serif;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
-.body-section {
-	width: 700px;
+.nav-link a {
+	font-family: 'Crimson Text', Sans-Serif;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.nav-bar {
+	margin: 0 auto;
+	width: 75%;
+	display: block;
+}
+
+.container {
+	margin: 0 auto;
+	width: 75%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.contact-link {
+	padding-bottom: 10px;
+}
+
+.selected a {
+	color: #888888;
 }
 
 a {
@@ -28,7 +50,7 @@ a {
 }
 
 a:hover {
-	color: #777777;
+	color: #888888;
 }
 
 
